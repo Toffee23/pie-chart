@@ -1,0 +1,58 @@
+interface Player{
+    id:number;
+    name:String;
+    points:number;
+    percent:number;
+    amount:number;
+    image:String;
+    color:String;
+    bet_percent:number;
+    chart_color:string;
+}
+export const PlayerData:Player[] = [
+    {
+        "id":1,
+        "name":"Web3gamed",
+        "points":2,
+        "percent":2.04,
+        "amount":0.01,
+        "image":"",
+        "color":"bg-red-600",
+        "bet_percent":2.04,
+        "chart_color":"red"
+
+    },
+    {
+        "id":2,
+        "name":"harrypotter36_5345",
+        "points":9,
+        "percent":40.04,
+        "amount":0.2,
+        "image":"",
+        "color":"bg-blue-600",
+        "bet_percent":40.04,
+        "chart_color":"blue"
+    },
+    {
+        "id":3,
+        "name":"treboomin",
+        "points":20,
+        "percent":20.41,
+        "amount":0.1,
+        "image":"",
+        "color":"bg-orange-400",
+        "bet_percent":20.41,
+        "chart_color": "orange"
+    },
+    {
+        "id":4,
+        "name":"c4a4e7",
+        "points":4,
+        "percent":4.08,
+        "amount":0.02,
+        "image":"",
+        "color":"bg-green-700",
+        "bet_percent":4.08,
+        "chart_color":"green"
+    },
+]
